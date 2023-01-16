@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f5fc;
+}
+
+.logoAlura {
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+}
+
+.contenedorIngresaTexto {
+  position: absolute;
+  float: left;
+  width: 650px;
+  height: 300px;
+  top: 130px;
+  left: 200px;
+}
+
+#ingresaTexto {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  background: #f3f5fc;
+  font-size: 32px;
+  color: #0a3871;
+  border: none;
+  outline: none;
+  text-transform: lowercase;
+}
+
+::placeholder {
+  color: #0a3871;
+}
+
+.contenedorMuestraTexto {
+  position: absolute;
+  float: left;
+  border-radius: 32px;
+  width: 360px;
+  height: 560px;
+  top: 40px;
+  left: 950px;
+  background: #ffffff;
+}
+
+#contieneTexto {
+  display: none;
+  position: absolute;
+  background: #ffffff;
+  font-size: 24px;
+  color: #495057;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  padding: 20px;
+  border-radius: 32px;
+  border: none;
+  outline: none;
+}
+
+#iconoBusqueda {
+  position: absolute;
+  width: 304px;
+  height: 272px;
+  top: 100px;
+  left: 25px;
+}
+
+.mensajesIngresa {
+  position: absolute;
+  width: 336px;
+  height: 145px;
+  left: 9px;
+  top: 400px;
+}
+
+#notFound {
+  position: absolute;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28.8px;
+  color: #343a40;
+  width: 300px;
+  height: 50%;
+  margin-top: 0;
+  left: 20px;
+}
+
+#msjIngresarTexto {
+  position: absolute;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #343a40;
+  width: 300px;
+  height: 50%;
+  margin-top: 58px;
+  left: 20px;
+}
+
+#copiar{
+  display: none;
+  position: absolute;
+  width: 250px;
+  height: 67px;
+  left: 40px;
+  top: 70px;
+  border-radius: 24px;
+  background: #FFFFFF;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0A3871;
+  border: solid;
+  border-color: #0a3871;
+  border-width: 1px;
+  transition: 1s all;
+}
+
+#copiar:hover{
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  background: orange;
+  border: solid;
+  border-color: #000000;
+  border-width: 1px;
+}
+
+.contenedorAlerta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 229px;
+  height: 18px;
+  left: 200px;
+  top: 470px;
+}
+
+.logoAlerta {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.textoAlerta {
+  width: 205px;
+  height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #495057;
+  opacity: 0.8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.contenedorBotones {
+  position: absolute;
+  width: 680px;
+  height: 75px;
+  top: 490px;
+  left: 200px;
+}
+
+#encripta {
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  background: #0a3871;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  border: none;
+  transition: 1s all;
+}
+
+#desencripta {
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  background: #d8dfe8;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0a3871;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  border: solid;
+  border-color: #0a3871;
+  border-width: 1px;
+  transition: 1s all;
+}
+
+#encripta:hover {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  background: orange;
+  border: solid;
+  border-color: #000000;
+  border-width: 1px;
+}
+
+#desencripta:hover {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  background: orange;
+  border: solid;
+  border-color: #000000;
+  border-width: 1px;
+}
